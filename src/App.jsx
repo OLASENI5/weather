@@ -45,7 +45,7 @@ function App() {
 
   return (
     <>
-      <div className="flex  p-5 flex-col items-center gap-10 text-white  w-screen h-screen">
+      <div className="flex  p-5 flex-col items-center gap-10 text-black  w-screen h-screen">
         <div className="flex justify-between w-full items-start">
           <div className="flex items-center justify-center gap-3 ">
             {" "}
@@ -64,7 +64,7 @@ function App() {
               />
             </svg>
             <input
-              className="border-b-white border rounded-full bg-transparent p-1 pl-5 text-white"
+              className="border-b-black border rounded-full bg-transparent p-1 pl-5 text-black"
               placeholder="Search Location"
               onChange={handleChange}
             />
